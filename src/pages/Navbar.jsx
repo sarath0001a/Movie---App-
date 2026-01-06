@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { WatchListContext } from '../Context/WatchListContext'
 
-const navbar = () => {
+const   Navbar = () => {
  const {watchlist}=  useContext(WatchListContext)
   return (
     <nav className='bg-slate-600 p-4 text-white flex justify-between fixed w-full z-10'>
@@ -13,4 +13,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
