@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Navbar from "./pages/navbar"
+import Navbar from "./pages/Navbar"
 import Home from "./pages/Home"
 import Watchlist from "./pages/Watchlist"
 import { WatchListProvider } from "./Context/WatchListContext"
